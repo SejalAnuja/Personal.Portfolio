@@ -1,0 +1,76 @@
+#home{
+    background-color: #EEF5FF;
+}
+.super{
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    display: flex;
+    height: 80px;
+    background-color: #535C91;
+
+}
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #535C91;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.education{
+    background-image: url(./images/Free\ Vector\ _\ White\ abstract\ background.jpeg);
+    display: flex;
+    justify-content: center;
+    gap: 5px
+}
+.box{
+    background-color: white;
+    margin: 60px;
+    box-shadow: 5px 10px 20px 0px rgba(15, 14, 14, 0.989);
+    padding: 20px;
+    
+}
+.title{
+    padding: 20px;
+}   
+.lang{
+    display: flex;
+}
+
+.other{
+    display:flex;
+    justify-content: space-around;
+    height: 200px;
+    gap: 20px;
+   
+}  
+.special{
+    padding: 15px;
+    padding-left: 25px;
+}
+.contact{
+    background-image: url(./images/Free\ Vector\ _\ White\ abstract\ background.jpeg);
+}
+.yellow{
+    display: flex;
+}
+.skill{
+    background-image: url(./images/Free\ Vector\ _\ White\ abstract\ background.jpeg);
+    height: 100%;
+}
+img{
+    width: 100%;
+}
+@media (max-width : 680px) {
+    .education{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    
+    
+}
+ 
